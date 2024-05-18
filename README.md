@@ -8,10 +8,16 @@
 
 ```
 git clone 'https://github.com/ADSOJAVIERCAMPOS/Apipandedios.git'
+
+Cambia a la rama master, la cual contiene el codigo de desarrollo de la API, con:
+git checkout master
 ```
 
 2. Instala las dependencias necesarias y configura la conexión a la base de datos.
 
+    Guardar la carpeta del repositorio de la API, dentro de la carpeta htdocs del servidor local
+    Crea una base de datos llamada pandedios e importa el archivo pandedios.sql dentro de el repositorio de la API
+    y en la carpeta base-datos
 ### Uso
 
 Una vez que la aplicación esté instalada y configurada, puedes iniciar el servidor y acceder a los siguientes endpoints:
@@ -36,4 +42,4 @@ Además de los endpoints mencionados, la Panadería App cuenta con los siguiente
 
 
 
-¡Gracias por usar Pan de Dios! Que disfrutes de tus deliciosos panes frescos.
+¡Gracias por usar Pan de Dios! Que disfrutes de tus deliciosos panes frescos.7
