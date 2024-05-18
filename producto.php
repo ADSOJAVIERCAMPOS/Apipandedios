@@ -52,7 +52,7 @@ if($_POST['METHOD']=='PUT'){
 
 if ($_POST['METHOD'] =='DELETE') {
     unset($_POST['METHOD']);
-    $id_galpon = $_GET['id_producto'];
+    $id_producto = $_GET['id_producto'];
     $query="DELETE FROM producto WHERE id_producto='$id_producto'";
     $result=metodoDelete($query);
     echo json_encode($result);

@@ -58,7 +58,7 @@ if($_POST['METHOD']=='PUT'){
 
 if ($_POST['METHOD'] =='DELETE') {
     unset($_POST['METHOD']);
-    $id_mantenimiento = $_GET['id_pedido'];
+    $id_pedido = $_GET['id_pedido'];
     $query="DELETE FROM pedido WHERE id_pedido='$id_pedido'";
     $result=metodoDelete($query);
     echo json_encode($result);
